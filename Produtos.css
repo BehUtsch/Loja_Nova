@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body {
+    width: 100%;
+    background: #a36040d5;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: rgb(255, 255, 255);
+    padding: 14px 14%;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 4rem;
+}
+
+.cabeçalho-link a{
+    color: #111;
+    font-weight: 700;
+    transition: 0.3s;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.cabeçalho-link a:hover{
+    color: #e79676;
+
+}
+
+.icon span{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon span:hover{
+    color: #000000;
+}
+
+.Container-roupas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+.Container-roupas img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.roupa img{
+    width: 250px;
+    height: auto;
+}
+
+.roupa{
+    background-color: #ececec;
+    color: #000;
+}
+
+.CAP{
+    background-color: #c8815f;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: rgb(252, 251, 255);
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+
+}
+
+.CAP a {
+    color: #fff;
+}
+
+.CAP:hover{
+      background-color: #111;
+      transform: scaleY(1.2);
+}
+
+.meio-contato h3{
+    color: rgb(223, 253, 141);
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.meio-contato li{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color: rgb(208, 156, 238);
+}
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+
+
